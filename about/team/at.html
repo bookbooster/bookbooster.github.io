@@ -1,0 +1,256 @@
+<html>
+  <head>
+    <title>A.T. McWilliams | BookBooster</title>
+    <link href="https://overpass-30e2.kxcdn.com/overpass.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation-icons/3.0/foundation-icons.min.css" />
+    <link rel="icon" href="/static/favicon.ico" />
+    <link rel="stylesheet" href="/client/index.0188ff2a9a91f73e416f6df80293167c.css" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width" />
+    <meta property="og:title" content="A.T. McWilliams | BookBooster" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://legacy.bookbooster.org/static/facebook_image_1.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="A.T. McWilliams | BookBooster" />
+    <meta name="twitter:image" content="https://legacy.bookbooster.org/static/facebook_image_1.jpg" />
+    
+      <meta name="description" content="A.T. is a program manager on the Google for Education team, and lives in San Francisco, CA. Before moving to California, he taught at an elementary school in Brooklyn, NY, where he first experienced how limited book access affects literacy. A.T. started BookBooster to help close the Book Gap in the Bay area community." />
+      <meta property="og:description" content="A.T. is a program manager on the Google for Education team, and lives in San Francisco, CA. Before moving to California, he taught at an elementary school in Brooklyn, NY, where he first experienced how limited book access affects literacy. A.T. started BookBooster to help close the Book Gap in the Bay area community." />
+      <meta name="twitter:description" content="A.T. is a program manager on the Google for Education team, and lives in San Francisco, CA. Before moving to California, he taught at an elementary school in Brooklyn, NY, where he first experienced how limited book access affects literacy. A.T. started BookBooster to help close the Book Gap in the Bay area community." />
+    
+    
+    <script type="text/javascript">
+  var _rollbarConfig = {
+    accessToken: "59ff54d241db4aa1b9d270a1195f090e",
+    captureUncaught: true,
+    captureUnhandledRejections: false,
+    ignoredMessages: ['Script error.'],
+    payload: {
+      environment: "production"
+    }
+  };
+  // Rollbar Snippet
+  !function(r){function e(t){if(o[t])return o[t].exports;var n=o[t]={exports:{},id:t,loaded:!1};return r[t].call(n.exports,n,n.exports,e),n.loaded=!0,n.exports}var o={};return e.m=r,e.c=o,e.p="",e(0)}([function(r,e,o){"use strict";var t=o(1).Rollbar,n=o(2);_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://d37gvrvc0wt4s1.cloudfront.net/js/v1.9/rollbar.min.js";var a=t.init(window,_rollbarConfig),i=n(a,_rollbarConfig);a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,i)},function(r,e){"use strict";function o(r){return function(){try{return r.apply(this,arguments)}catch(e){try{console.error("[Rollbar]: Internal error",e)}catch(o){}}}}function t(r,e,o){window._rollbarWrappedError&&(o[4]||(o[4]=window._rollbarWrappedError),o[5]||(o[5]=window._rollbarWrappedError._rollbarContext),window._rollbarWrappedError=null),r.uncaughtError.apply(r,o),e&&e.apply(window,o)}function n(r){var e=function(){var e=Array.prototype.slice.call(arguments,0);t(r,r._rollbarOldOnError,e)};return e.belongsToShim=!0,e}function a(r){this.shimId=++c,this.notifier=null,this.parentShim=r,this._rollbarOldOnError=null}function i(r){var e=a;return o(function(){if(this.notifier)return this.notifier[r].apply(this.notifier,arguments);var o=this,t="scope"===r;t&&(o=new e(this));var n=Array.prototype.slice.call(arguments,0),a={shim:o,method:r,args:n,ts:new Date};return window._rollbarShimQueue.push(a),t?o:void 0})}function l(r,e){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){var o=e.addEventListener;e.addEventListener=function(e,t,n){o.call(this,e,r.wrap(t),n)};var t=e.removeEventListener;e.removeEventListener=function(r,e,o){t.call(this,r,e&&e._wrapped?e._wrapped:e,o)}}}var c=0;a.init=function(r,e){var t=e.globalAlias||"Rollbar";if("object"==typeof r[t])return r[t];r._rollbarShimQueue=[],r._rollbarWrappedError=null,e=e||{};var i=new a;return o(function(){if(i.configure(e),e.captureUncaught){i._rollbarOldOnError=r.onerror,r.onerror=n(i);var o,a,c="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(o=0;o<c.length;++o)a=c[o],r[a]&&r[a].prototype&&l(i,r[a].prototype)}return e.captureUnhandledRejections&&(i._unhandledRejectionHandler=function(r){var e=r.reason,o=r.promise,t=r.detail;!e&&t&&(e=t.reason,o=t.promise),i.unhandledRejection(e,o)},r.addEventListener("unhandledrejection",i._unhandledRejectionHandler)),r[t]=i,i})()},a.prototype.loadFull=function(r,e,t,n,a){var i=function(){var e;if(void 0===r._rollbarPayloadQueue){var o,t,n,i;for(e=new Error("rollbar.js did not load");o=r._rollbarShimQueue.shift();)for(n=o.args,i=0;i<n.length;++i)if(t=n[i],"function"==typeof t){t(e);break}}"function"==typeof a&&a(e)},l=!1,c=e.createElement("script"),d=e.getElementsByTagName("script")[0],p=d.parentNode;c.crossOrigin="",c.src=n.rollbarJsUrl,c.async=!t,c.onload=c.onreadystatechange=o(function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){c.onload=c.onreadystatechange=null;try{p.removeChild(c)}catch(r){}l=!0,i()}}),p.insertBefore(c,d)},a.prototype.wrap=function(r,e){try{var o;if(o="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._wrapped){r._wrapped=function(){try{return r.apply(this,arguments)}catch(e){throw e._rollbarContext=o()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e,e}},r._wrapped._isWrap=!0;for(var t in r)r.hasOwnProperty(t)&&(r._wrapped[t]=r[t])}return r._wrapped}catch(n){return r}};for(var d="log,debug,info,warn,warning,error,critical,global,configure,scope,uncaughtError,unhandledRejection".split(","),p=0;p<d.length;++p)a.prototype[d[p]]=i(d[p]);r.exports={Rollbar:a,_rollbarWindowOnError:t}},function(r,e){"use strict";r.exports=function(r,e){return function(o){if(!o&&!window._rollbarInitialized){var t=window.RollbarNotifier,n=e||{},a=n.globalAlias||"Rollbar",i=window.Rollbar.init(n,r);i._processShimQueue(window._rollbarShimQueue||[]),window[a]=i,window._rollbarInitialized=!0,t.processPayloads()}}}}]);
+  // End Rollbar Snippet
+</script>
+
+    <script type="text/javascript">
+  window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+  heap.load("2402296946");
+</script>
+
+    <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '');
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1"
+    src="https://www.facebook.com/tr?id=&ev=PageView
+    &noscript=1"/>
+</noscript>
+
+  </head>
+  <body>
+    
+      <div id="fb-root"></div>
+      <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=241985269536270";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+    
+    
+      <script>
+        window.twttr = (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0],
+              t = window.twttr || {};
+          if (d.getElementById(id)) return t;
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+
+          t._e = [];
+          t.ready = function(f) {
+            t._e.push(f);
+          };
+
+          return t;
+        }(document, "script", "twitter-wjs"));
+      </script>
+    
+    
+      <div class="bg-primary navbar">
+        <div class="row">
+          <div class="small-11 large-9 large-offset-1 columns navbar-content">
+            <a href="/" class="font-brand columns navbar-logo-link">
+              <span class="navbar-logo">
+                <span class="logo"></span>
+              </span>
+              <span class="navbar-brand">
+                BookBooster
+              </span>
+            </a>
+            <a href="/join" class="button secondary hide-for-medium navbar-donate-button donate-link float-right" target="_blank">
+              Donate now
+            </a>
+            <ul class="menu columns navbar-layout-links">
+              <li><a href="/progress">Schools</a></li>
+              <li><a href="/about">About us</a></li>
+              <li><a href="/faq" class="show-for-medium">FAQ</a></li>
+              <li><a href="/openings">Join our team</a></li>
+              <li>
+                <a href="/join" class="button secondary show-for-medium donate-link" target="_blank">
+                  Donate now
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    <div id="loading-message"></div>
+    <div class="bg-white">
+  <div class="row about-section">
+    <div class="small-11 medium-9 medium-offset-1 large-7 columns about-mission-content">
+      <h1 class="about-mission-header">About us</h1>
+      <div class="row align-middle about-mission-text">
+        <div class="small-4 medium-3 columns">
+          <div class="about-mission-icon hood"></div>
+        </div>
+        <div class="small-7 medium-8 columns">
+          BookBooster was founded to help bring books to
+          neighborhoods that need them most, and help improve literacy across
+          the country.
+          <a href="https://medium.com/@albertmcwilliams3/book-deserts-and-the-widening-literacy-gap-a8ce2e83ceb6#.87rrhfop2" target="_blank" rel="noopener noreferrer">Read more</a>
+          about our story.
+        </div>
+      </div>
+      <div class="row align-middle about-mission-text">
+        <div class="small-4 medium-3 columns">
+          <div class="about-mission-icon graph"></div>
+        </div>
+        <div class="small-7 medium-8 columns">
+          Studies show that the only behavior measure that correlates significantly
+          with reading scores is the number of books in schools and homes.
+        </div>
+      </div>
+    </div>
+    <div class="large-2 columns show-for-large">
+      <div class="about-mission-image"></div>
+    </div>
+  </div>
+  <div class="about-section" id="team"><div class="row" data-reactroot="" data-reactid="1" data-react-checksum="-918594202"><!-- react-empty: 2 --><div class="small-11 columns text-center" data-reactid="3"><h2 class="Team-header" data-reactid="4">Team</h2></div><div class="small-7 small-offset-2 medium-4 medium-offset-1 large-3 large-offset-2 columns" data-reactid="5"><div data-reactid="6"><a class="TeamMember-image at" href="/about/team/at" data-reactid="7"></a><div class="TeamMember-name-container clearfix" data-reactid="8"><div class="TeamMember-name float-left" data-reactid="9">A.T. McWilliams</div><div class="TeamMember-links float-right" data-reactid="10"><a href="https://twitter.com/atmcwilliams" target="_blank" rel="noopener noreferrer" data-reactid="11"><i class="fi-social-twitter" data-reactid="12"></i></a></div></div><p data-reactid="13">A.T. is a program manager on the Google for Education team, and lives in San Francisco, CA. Before moving to California, he taught at an elementary school in Brooklyn, NY, where he first experienced how limited book access affects literacy. A.T. started BookBooster to help close the Book Gap in the Bay area community.</p><div class="TeamMember-book" data-reactid="14"><strong data-reactid="15">Favorite book:</strong><!-- react-text: 16 --> <!-- /react-text --><!-- react-text: 17 -->Americanah<!-- /react-text --></div><div class="TeamMember-book" data-reactid="18"><strong data-reactid="19">Currently reading:</strong><!-- react-text: 20 --> <!-- /react-text --><!-- react-text: 21 -->Invisible Man, Got the Whole World Watching<!-- /react-text --></div></div></div><div class="small-7 small-offset-2 medium-4 medium-offset-1 large-3 columns Team-member-second" data-reactid="22"><div data-reactid="23"><a class="TeamMember-image holman" href="/about/team/holman" data-reactid="24"></a><div class="TeamMember-name-container clearfix" data-reactid="25"><div class="TeamMember-name float-left" data-reactid="26">Holman Gao</div><div class="TeamMember-links float-right" data-reactid="27"><a href="https://golmansax.com/" target="_blank" rel="noopener noreferrer" data-reactid="28"><i class="fi-address-book" data-reactid="29"></i></a><a href="https://twitter.com/golmansax" target="_blank" rel="noopener noreferrer" data-reactid="30"><i class="fi-social-twitter" data-reactid="31"></i></a><a href="https://github.com/golmansax" target="_blank" rel="noopener noreferrer" data-reactid="32"><i class="fi-social-github" data-reactid="33"></i></a></div></div><p data-reactid="34">Holman is an entrepreneur and freelance developer with a love for learning and teaching. He is actively envolved in the edtech community, and was excited to work on BookBooster after learning about the correlation between income, books, and literacy. In his free time, he enjoys singing and playing guitar, practicing Spanish, and tutoring math.</p><div class="TeamMember-book" data-reactid="35"><strong data-reactid="36">Favorite book:</strong><!-- react-text: 37 --> <!-- /react-text --><!-- react-text: 38 -->Moneyball<!-- /react-text --></div><div class="TeamMember-book" data-reactid="39"><strong data-reactid="40">Currently reading:</strong><!-- react-text: 41 --> <!-- /react-text --><!-- react-text: 42 -->The 7 Habits of Highly Effective People<!-- /react-text --></div></div></div><noscript data-reactid="43"></noscript></div></div>
+  <div class="row about-section">
+    <div class="small-11 medium-9 medium-offset-1 columns">
+      <h2 class="about-team-header">Credits</h2>
+      <dl class="about-credits">
+        <dt>
+          2016-17 BookBooster Champions
+          <span class="SupportTooltip-content"
+  tooltip-text="BookBooster Champions have helped spread the word through personal contacts and social media, and have successfully recruited other BookBoosters!  BookBooster thanks them for their efforts."
+  >
+  <i class="fi-info SupportTooltip-icon"></i>
+</span>
+
+        </dt>
+        <dd>Shivani Amar</dd>
+        <dd>Lauren Baker</dd>
+        <dd>Simon Chaffetz</dd>
+        <dd>Ezra Kebrab</dd>
+        <dd>Veer Nairyani</dd>
+        <dd>Alisa Williams</dd>
+        <dd>Capella Yee</dd>
+        <dt>Design</dt>
+        <dd><a href="http://abiraja.com/" target="_blank" rel="noopener noreferrer">Abi Raja</a></dd>
+        <dt>Icons</dt>
+        <dd>
+          &ldquo;Presentation&rdquo; by Stock Image Folio from
+          <a href="https://thenounproject.com/" target="_blank" rel="noopener noreferrer">the Noun Project</a>
+        </dd>
+        <dd>
+          &ldquo;House&rdquo; by Martha Ormiston from
+          <a href="https://thenounproject.com/" target="_blank" rel="noopener noreferrer">the Noun Project</a>
+        </dd>
+        <dd>
+          &ldquo;Right&rdquo; by Brian Dys Sahagun from
+          <a href="https://thenounproject.com/" target="_blank" rel="noopener noreferrer">the Noun Project</a>
+        </dd>
+        <dd>
+          &ldquo;Books&rdquo; by Nadi Kurganskaya from
+          <a href="https://thenounproject.com/" target="_blank" rel="noopener noreferrer">the Noun Project</a>
+        </dd>
+      </dl>
+    </div>
+  </div>
+  <div class="row about-section">
+    <div class="small-11 medium-9 medium-offset-1 columns">
+      <h2>Contact us</h2>
+      <p>
+        Send us an email at <a href="mailto:hello@bookbooster.us">hello@bookbooster.us</a>
+        for any questions or even just to say hello!
+      </p>
+    </div>
+  </div>
+</div>
+
+    <div class="bg-primary navbar">
+      <div class="row align-middle">
+        <div class="small-11 medium-9 medium-offset-1 columns navbar-content">
+          <div class="navbar-footer-text">
+            made with &lt;3 in the Bay Area
+            <br />
+            design by <a href="http://abiraja.com/" target="_blank" rel="noopener noreferrer">Abi Raja</a>
+          </div>
+          <div class="navbar-footer-icons">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/bookbooster" class="navbar-footer-icon">
+              <i class="fi-social-facebook"></i>
+            </a>
+            <a href="mailto:hello@bookbooster.us" class="navbar-footer-icon">
+              <i class="fi-mail"></i>
+            </a>
+          </div>
+        </div>
+        <div class="small-11 medium-9 medium-offset-1 columns navbar-footer-social">
+          <div class="share-buttons">
+  <div class="fb-like"
+    data-href="https://www.facebook.com/bookbooster"
+    data-layout="button_count"
+    data-action="like"
+    data-share="false">
+  </div>
+  <a class="twitter-share-button"
+    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.boostmyschool.com%2Forgs%2Fbookbooster%2Fcampaigns%2F2017-back-to-school-fundraiser&text=School+starts+this+week%21+Donate+to+%23BookBooster+and+help+provide+free+books+for+%23publicschools+in+the+%23BayArea.">
+  </a>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+    
+    <script src="/client/index.22f9d13a2435051e106f.js" type="text/javascript"></script>
+    
+    
+    
+    
+    
+    
+    
+      <script async type="text/javascript" src="/client/about.4e6ddad4913b89fe60d1.js"></script>
+    
+  </body>
+</html>

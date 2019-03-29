@@ -1,0 +1,254 @@
+<html>
+  <head>
+    <title>BookBooster — Providing books to low-income students in the Bay Area</title>
+    <link href="https://overpass-30e2.kxcdn.com/overpass.css" rel="stylesheet" />
+    
+      <link rel="stylesheet" href="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.css" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation-icons/3.0/foundation-icons.min.css" />
+    <link rel="icon" href="/static/favicon.ico" />
+    <link rel="stylesheet" href="/client/index.0188ff2a9a91f73e416f6df80293167c.css" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width" />
+    <meta property="og:title" content="BookBooster — Providing books to low-income students in the Bay Area" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://legacy.bookbooster.org/static/facebook_image_1.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="BookBooster — Providing books to low-income students in the Bay Area" />
+    <meta name="twitter:image" content="https://legacy.bookbooster.org/static/facebook_image_1.jpg" />
+    
+      <meta name="description" content="BookBooster aims to enhance student literacy and help close the Book Gap inthe Bay Area.  Donate now to provide books to low-income schools in the Bay Area!" />
+      <meta property="og:description" content="BookBooster aims to enhance student literacy and help close the Book Gap inthe Bay Area.  Donate now to provide books to low-income schools in the Bay Area!" />
+      <meta name="twitter:description" content="BookBooster aims to enhance student literacy and help close the Book Gap inthe Bay Area.  Donate now to provide books to low-income schools in the Bay Area!" />
+    
+    
+    <script type="text/javascript">
+  var _rollbarConfig = {
+    accessToken: "59ff54d241db4aa1b9d270a1195f090e",
+    captureUncaught: true,
+    captureUnhandledRejections: false,
+    ignoredMessages: ['Script error.'],
+    payload: {
+      environment: "production"
+    }
+  };
+  // Rollbar Snippet
+  !function(r){function e(t){if(o[t])return o[t].exports;var n=o[t]={exports:{},id:t,loaded:!1};return r[t].call(n.exports,n,n.exports,e),n.loaded=!0,n.exports}var o={};return e.m=r,e.c=o,e.p="",e(0)}([function(r,e,o){"use strict";var t=o(1).Rollbar,n=o(2);_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://d37gvrvc0wt4s1.cloudfront.net/js/v1.9/rollbar.min.js";var a=t.init(window,_rollbarConfig),i=n(a,_rollbarConfig);a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,i)},function(r,e){"use strict";function o(r){return function(){try{return r.apply(this,arguments)}catch(e){try{console.error("[Rollbar]: Internal error",e)}catch(o){}}}}function t(r,e,o){window._rollbarWrappedError&&(o[4]||(o[4]=window._rollbarWrappedError),o[5]||(o[5]=window._rollbarWrappedError._rollbarContext),window._rollbarWrappedError=null),r.uncaughtError.apply(r,o),e&&e.apply(window,o)}function n(r){var e=function(){var e=Array.prototype.slice.call(arguments,0);t(r,r._rollbarOldOnError,e)};return e.belongsToShim=!0,e}function a(r){this.shimId=++c,this.notifier=null,this.parentShim=r,this._rollbarOldOnError=null}function i(r){var e=a;return o(function(){if(this.notifier)return this.notifier[r].apply(this.notifier,arguments);var o=this,t="scope"===r;t&&(o=new e(this));var n=Array.prototype.slice.call(arguments,0),a={shim:o,method:r,args:n,ts:new Date};return window._rollbarShimQueue.push(a),t?o:void 0})}function l(r,e){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){var o=e.addEventListener;e.addEventListener=function(e,t,n){o.call(this,e,r.wrap(t),n)};var t=e.removeEventListener;e.removeEventListener=function(r,e,o){t.call(this,r,e&&e._wrapped?e._wrapped:e,o)}}}var c=0;a.init=function(r,e){var t=e.globalAlias||"Rollbar";if("object"==typeof r[t])return r[t];r._rollbarShimQueue=[],r._rollbarWrappedError=null,e=e||{};var i=new a;return o(function(){if(i.configure(e),e.captureUncaught){i._rollbarOldOnError=r.onerror,r.onerror=n(i);var o,a,c="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(o=0;o<c.length;++o)a=c[o],r[a]&&r[a].prototype&&l(i,r[a].prototype)}return e.captureUnhandledRejections&&(i._unhandledRejectionHandler=function(r){var e=r.reason,o=r.promise,t=r.detail;!e&&t&&(e=t.reason,o=t.promise),i.unhandledRejection(e,o)},r.addEventListener("unhandledrejection",i._unhandledRejectionHandler)),r[t]=i,i})()},a.prototype.loadFull=function(r,e,t,n,a){var i=function(){var e;if(void 0===r._rollbarPayloadQueue){var o,t,n,i;for(e=new Error("rollbar.js did not load");o=r._rollbarShimQueue.shift();)for(n=o.args,i=0;i<n.length;++i)if(t=n[i],"function"==typeof t){t(e);break}}"function"==typeof a&&a(e)},l=!1,c=e.createElement("script"),d=e.getElementsByTagName("script")[0],p=d.parentNode;c.crossOrigin="",c.src=n.rollbarJsUrl,c.async=!t,c.onload=c.onreadystatechange=o(function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){c.onload=c.onreadystatechange=null;try{p.removeChild(c)}catch(r){}l=!0,i()}}),p.insertBefore(c,d)},a.prototype.wrap=function(r,e){try{var o;if(o="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._wrapped){r._wrapped=function(){try{return r.apply(this,arguments)}catch(e){throw e._rollbarContext=o()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e,e}},r._wrapped._isWrap=!0;for(var t in r)r.hasOwnProperty(t)&&(r._wrapped[t]=r[t])}return r._wrapped}catch(n){return r}};for(var d="log,debug,info,warn,warning,error,critical,global,configure,scope,uncaughtError,unhandledRejection".split(","),p=0;p<d.length;++p)a.prototype[d[p]]=i(d[p]);r.exports={Rollbar:a,_rollbarWindowOnError:t}},function(r,e){"use strict";r.exports=function(r,e){return function(o){if(!o&&!window._rollbarInitialized){var t=window.RollbarNotifier,n=e||{},a=n.globalAlias||"Rollbar",i=window.Rollbar.init(n,r);i._processShimQueue(window._rollbarShimQueue||[]),window[a]=i,window._rollbarInitialized=!0,t.processPayloads()}}}}]);
+  // End Rollbar Snippet
+</script>
+
+    <script type="text/javascript">
+  window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+  heap.load("2402296946");
+</script>
+
+    <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '');
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1"
+    src="https://www.facebook.com/tr?id=&ev=PageView
+    &noscript=1"/>
+</noscript>
+
+  </head>
+  <body>
+    
+      <div id="fb-root"></div>
+      <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=241985269536270";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+    
+    
+      <script>
+        window.twttr = (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0],
+              t = window.twttr || {};
+          if (d.getElementById(id)) return t;
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+
+          t._e = [];
+          t.ready = function(f) {
+            t._e.push(f);
+          };
+
+          return t;
+        }(document, "script", "twitter-wjs"));
+      </script>
+    
+    
+    <div id="loading-message"></div>
+    <div class="bg-primary">
+  <div class="row navbar">
+    <div class="large-4 large-offset-6 columns">
+      <ul class="menu index-navbar-menu">
+        <li><a href="/"><div class="navbar-logo"><div class="logo"></div></div></a></li>
+        <li><a href="/progress">Schools</a></li>
+        <li><a href="/about">About us</a></li>
+        <li><a href="/faq" class="show-for-medium">FAQ</a></li>
+        <li><a href="/openings">Join our team</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="show-for-large large-6 columns index-main-image"></div>
+    <div class="small-11 large-5 columns campaign-main-content">
+      <h1 class="index-main-brand font-brand">BookBooster</h1>
+      <p>
+        Providing Book Grants for under-resourced schools in the Bay Area.
+        Every <strong>$3 donation</strong> helps provide <strong>one new
+        book</strong> for a student in need.
+      </p>
+      <div class="campaign-stats">
+        <div class="campaign-stat">
+          <div class="campaign-stat-number">
+            <div class="campaign-supporter-count odometer">0</div>
+          </div>
+          <small>BookBoosters</small>
+        </div>
+        <div class="campaign-stat">
+          <div class="campaign-stat-number">
+            <div class="campaign-book-count odometer">0</div>
+          </div>
+          <small>books raised to date</small>
+        </div>
+        <!--
+        <div class="campaign-stat">
+          <div class="campaign-stat-number">
+            <div class="campaign-days-left odometer">30</div>
+          </div>
+          <small>day<span class="campaign-days-left-plural">s</span> left</small>
+        </div>
+        -->
+      </div>
+      <a class="CampaignForm-main-button button secondary campaign-main-button donate-link" href="https://www.boostmyschool.com/orgs/bookbooster/campaigns/2017-18-bookbooster-fund/check-out" target="_blank">
+        Donate now to provide books
+      </a>
+    </div>
+    <div class="hide-for-large small-11 columns index-main-image"></div>
+  </div>
+</div>
+<div class="bg-white index-section-padding-bottom">
+  <div class="row align-center">
+    <div class="columns large-9 campaign-thank-you text-center">
+      Thanks to all of our supporters!
+      <a href="https://www.boostmyschool.com/orgs/bookbooster/campaigns/2017-18-bookbooster-fund/supporters" target="_blank">
+        See a list of our donors.
+      </a>
+    </div>
+  </div>
+  <div class="row align-center">
+    <div class="small-11 medium-4 large-3 columns">
+      <p>
+        Through a partnership with nonprofit
+        <a href="https://www.firstbook.org/" target="_blank" rel="noopener noreferrer">First Book</a>,
+        BookBooster awards Book Grants to under-resourced
+        public schools in the Bay Area.
+        <strong>For every $3 donated, a student in need receives a brand new book.</strong>
+      </p>
+      <br />
+      <p>
+        During the 2017-2018 school year, BookBooster will help provide
+        thousands of new books to high-need schools in San Francisco, Oakland,
+        Richmond and San Jose.
+        <a href="https://medium.com/@albertmcwilliams3/book-deserts-and-the-widening-literacy-gap-a8ce2e83ceb6#.87rrhfop2" target="_blank" rel="noopener noreferrer">Read more</a>
+        about why BookBooster was started,
+        and <a class="donate-link" href="https://www.boostmyschool.com/orgs/bookbooster/campaigns/2017-18-bookbooster-fund/check-out">give today</a>.
+      </p>
+      <br />
+    </div>
+    <div class="small-11 medium-7 large-6 columns" id="schools">
+      <div class="school-map-container">
+        <div class="school-map-second-container">
+          <div id="school-map"></div>
+        </div>
+      </div>
+    </div>
+    <div class="small-11 medium-9 columns text-center">
+      <a href="/progress" class="index-map-button button">
+        See the Bay Area schools that have received Book Grants
+      </a>
+    </div>
+    <div class="small-11 medium-9 columns text-center" id="press">
+      <h3 class="campaign-press-header">BookBooster in the news</h3>
+      <a href="http://missionlocal.org/2016/11/startup-crowdfunds-books-for-schools/" target="_blank" rel="noopener noreferrer"><img src="/static/mission_local.png" alt="Mission Local" class="campaign-press-mission-local"/></a>
+      <a href="/static/book_booster_kcbs.mp3"><img src="/static/kcbs.png" alt="KCBS San Francisco" class="campaign-press-kcbs" /></a>
+    </div>
+    <div class="small-11 medium-9 columns text-center" id="partners">
+      <h3 class="campaign-partners-header">Partners</h3>
+      <a href="https://www.firstbook.org/" target="_blank" rel="noopener noreferrer"><img class="campaign-partners-first-book" src="/static/first_book.png" alt="First Book" /></a>
+      <a href="http://4pt0.org/" target="_blank" rel="noopener noreferrer"><img class="campaign-partners-4pt0" src="/static/4pt0_schools.png" alt="4.0 Schools" /></a>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  window.GRAPH_QL_DATA = {"campaignIdPairs":{"2016":{"campaignId":"2016-17-bookbooster-fund","orgId":"bookbooster","url":"https://www.boostmyschool.com/orgs/bookbooster/campaigns/2016-17-bookbooster-fund"},"2017":{"campaignId":"2017-18-bookbooster-fund","orgId":"bookbooster","url":"https://www.boostmyschool.com/orgs/bookbooster/campaigns/2017-18-bookbooster-fund"}},"url":"https://api.boostmyschool.com/v1/graph_ql","campaignId":"2017-18-bookbooster-fund","orgId":"bookbooster"};
+</script>
+
+    <div class="bg-primary navbar">
+      <div class="row align-middle">
+        <div class="small-11 medium-9 medium-offset-1 columns navbar-content">
+          <div class="navbar-footer-text">
+            made with &lt;3 in the Bay Area
+            <br />
+            design by <a href="http://abiraja.com/" target="_blank" rel="noopener noreferrer">Abi Raja</a>
+          </div>
+          <div class="navbar-footer-icons">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/bookbooster" class="navbar-footer-icon">
+              <i class="fi-social-facebook"></i>
+            </a>
+            <a href="mailto:hello@bookbooster.us" class="navbar-footer-icon">
+              <i class="fi-mail"></i>
+            </a>
+          </div>
+        </div>
+        <div class="small-11 medium-9 medium-offset-1 columns navbar-footer-social">
+          <div class="share-buttons">
+  <div class="fb-like"
+    data-href="https://www.facebook.com/bookbooster"
+    data-layout="button_count"
+    data-action="like"
+    data-share="false">
+  </div>
+  <a class="twitter-share-button"
+    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.boostmyschool.com%2Forgs%2Fbookbooster%2Fcampaigns%2F2017-back-to-school-fundraiser&text=School+starts+this+week%21+Donate+to+%23BookBooster+and+help+provide+free+books+for+%23publicschools+in+the+%23BayArea.">
+  </a>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+    
+    <script src="/client/index.22f9d13a2435051e106f.js" type="text/javascript"></script>
+    
+    
+      <script async type="text/javascript" src="/client/campaign.a9a85ef600650861ea72.js"></script>
+    
+    
+    
+    
+    
+      <script async type="text/javascript" src="/client/school_map.f92a3edad7349337fba8.js"></script>
+    
+    
+  </body>
+</html>
